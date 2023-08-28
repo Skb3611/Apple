@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+nav{
+    display: flex;
+    background: #272626;
+    align-items: center;
+    justify-content:space-between;
+    height: 10vh;
+}
+.left ul{
+    display: flex;
+}
+.left ul li {
+    list-style: none;
+    margin: auto 30px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+.right{
+    color: white;
+    display: flex;
+    margin: 0px 50px;
+}
+.btn{
+    font-weight: 700;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    font-size: 1.1rem;
+    border-radius: 17px;
+    box-shadow: inset 0px 0px 8px 0px black;
+    cursor: pointer;
+}
+.img{
+    height: 30px;
+    filter: invert(100%);
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    
+}
+.button{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button img{
+    width: 50px;
+}
+.button p{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 8px;
+}
+#active{
+    background-color: rgba(239, 233, 233, 1);
+    box-shadow: inset 0px 0px 5px black;
+}
+.product img{
+    filter: drop-shadow(2px 2px 5px  black);
+}
